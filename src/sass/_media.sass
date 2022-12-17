@@ -1,0 +1,291 @@
+@media (max-width: 1200px)
+    .main_menu
+        .menu_link
+            font-size: 13px
+        .menu_item
+            padding-right: 25px
+    .subheader
+        &_logo_text
+            font-size: 12px 
+    .promo 
+        .promo_header 
+            font-size: 50px 
+    .mobile
+        &_item
+            width: 300px
+    .map
+        min-height: 517px
+        .look
+            margin-top: 286px
+    .end
+        &_box > div
+            .nav_box_bot
+                a
+                    font-size: 10px
+
+
+
+@media (max-width: 991px)
+    .main_menu
+        padding: 13px 10px 
+        .menu_link
+            font-size: 10px
+        .menu_item
+            padding-right: 20px
+    .subheader 
+        &_logo 
+            img
+                width: 100%
+        &_logo_text
+            font-size: 10px 
+            font-weight: 300 
+        &_number
+            font-size: 19px
+        &_button
+            margin-top: 24px
+            width: 100%
+            height: 35px  
+    .promo 
+        min-height: 650px
+        .promo_header 
+            font-size: 40px 
+        .promo_subheader 
+            font-size: 28px 
+        .subheader_button 
+            margin: 78px auto 0 auto
+    .reason 
+        .col-md-6 
+            justify-content: start
+            flex-direction: column
+            align-items: center
+    .mobile
+        &_item
+            width: 230px
+        .mobile_item_subtitle
+            font-size: 17px
+    .terms
+        min-height: 820px
+        &_title
+            margin-top: 10px
+            font-size: 18px
+        &_list
+            font-size: 14px
+    .end
+        &_box > div
+            .nav_box_top
+                    a
+                        font-size: 11px
+            .nav_box_bot
+                    a
+                        font-size: 7px
+            &:nth-child(3)
+                .app_box
+                    a
+                        img
+                            width: 71px
+
+@media (max-width: 767px)
+    .main_menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        padding: 20px 15px
+        width: 50%
+        height: 100vh
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        .menu_item 
+            border: none
+            margin-top: 15px
+            padding-right: 0
+        .menu_link 
+            font-size: 20px
+            text-decoration: none 
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            margin-bottom: 2px
+            background-color: #fff
+            transition: 0.6s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(-45deg)
+    .xs-hidden
+        display: none
+    .subheader  
+        .xs-visible
+            display: block 
+        &_logo 
+            margin-top: 22px
+        &_number
+            margin-top: 10px
+            text-align: center
+            font-size: 17px
+        &_button
+            margin-top: 15px
+            height: 25px 
+    .promo 
+        .promo_header 
+            line-height: 45px
+    .possibilities
+        .auto
+            width: 350px
+            top: 77%
+    .end
+        &_box > div
+            width: 55%
+            &:nth-child(3)
+                justify-content: center
+                .app_box
+                    a
+                        img
+                            width: 80px
+        &_box
+            flex-direction: column
+            align-items: center
+            .social_box
+                justify-content: center
+                margin: 0 auto
+                margin-bottom: 10px
+            .nav_box
+                &_top
+                    a
+                        margin-top: 0 auto
+                &_bot
+                    margin-bottom: 10px
+@media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
+    .nav_wrapper
+        height: 30px
+    .main_menu
+        width: 85%
+        .menu_item
+            width: 100%
+            text-align: center
+            a
+                display: block
+    .subheader 
+        height: 60px
+        &_logo 
+            margin-top: 17px
+        &_number
+            font-size: 12px
+            font-weight: 400
+        &_button
+            margin-top: 8px
+            height: 22px
+            font-size: 10px
+    .promo 
+        min-height: 400px
+        .promo_header
+            margin-top: 100px
+            font-size: 30px
+            line-height: 35px
+        .promo_subheader 
+            font-size: 20px
+        .promo_text 
+            display: none
+        .subheader_button 
+            margin: 40px auto 0 auto
+            width: 210px
+            height: 50px
+            font-size: 16px 
+    .benefits
+        margin-top: 22px
+    .title
+        margin-top: 21px 
+        font-size: 16px 
+        font-weight: bold
+    .subtitle
+        margin-top: 11px
+        font-size: 14px
+        font-weight: 400
+        line-height: 1.5 
+    .reason
+        .reason_text
+            width: 290px
+            margin-top: 27px
+            .reason_article 
+                font-size: 16px 
+    .benefits_2 
+        margin-top: 25px
+    .possibilities
+        height: 390px
+        .title_2
+            display: none
+        .subtitle_2
+            display: none
+        .auto
+            width: 300px
+            height: 190px
+            top: 17%
+        .other_text
+            font-size: 16px
+            font-weight: 300
+            line-height: 1.41
+            text-align: center
+            color: #fff
+        .xxs-visible
+            display: block
+            position: absolute
+            top: 70%
+            width: 249px
+            height: 60px
+    .xxs-hidden
+        display: none
+    .terms
+        &_title
+            font-size: 16px
+    .map
+        min-height: 360px
+        .benefits_2
+            width: 76px
+        .title_2
+            font-size: 16px
+            margin-top: 21px
+        .subtitle_2
+            font-size: 14px
+            margin-top: 10px
+        .look
+            margin-top: 170px
+    .end
+        &_box > div
+            width: 70%
+            &:nth-child(3)
+                .app_box
+                    a
+                        img
+                            width: 66px
+
+
+
+
+
+
+
+        
+
+                
